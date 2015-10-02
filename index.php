@@ -57,8 +57,8 @@
                 <form class="p0-top navbar-form navbar-left hidden-lg hidden-md hidden-sm" role="search">
                           <div class="form-group inblock">
                             <input type="text" class="form-control inblock" placeholder="Search Jobs">
+                            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
                           </div>
-                          <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
                         </form>
                </div>
                <div class="col-xs-2 p0-left" data-toggle="tooltip" data-placement="left" title="Click here to open menu">
@@ -71,7 +71,7 @@
               </div>
               </div>
               <div class="navbar-collapse collapse p0-left" id="navbar-main2">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav m0-left">
                   <li class="hidden-lg hidden-md hidden-sm text-right"><a href="">LearnWebDev</a></li>
                   <li class="hidden-lg hidden-md hidden-sm text-right"><a href="">Jobs Portal</a></li>
                   <li class="hidden-lg hidden-md hidden-sm text-right">
@@ -124,12 +124,12 @@
           <div class="main-content">
             <div class="row p10-bttm">
               <div class="col-md-12">
-                <h2 class="m0-top">Nigeria's top jobs site.</h2>
+                <h2 class="m0-top h2-md h2-xs">Nigeria's top jobs site.</h2>
               </div>
             </div>
             <div class="row">
               <!-- Post-cards -->
-              <div class="col-md-8 post-cards m15-left">
+              <div class="col-md-8 post-cards">
                 <!-- post-card 1 -->
                 <div class="post-card">
                     <div class="card radius shadowDepth1 row">
@@ -152,7 +152,7 @@
                                     <a href="" class="like-icon"><i class="fa fa-heart-o"></i></a>
                                     <a id="share" class="share-toggle share-icon" href="#"></a>
                                 </div>
-                                <div class="card__meta"><span class="btn btn-xs"><a href="#">Program Management</a></span><span class="btn btn-xs"><a href="#">Lagos</a></span><span class="btn btn-xs"><a href="#">Google</a></span></div>
+                                <div class="card__meta"><span class="btn btn-xs"><a href="#">Google</a></span><span class="btn btn-xs"><a href="#">Program Management</a></span><span class="btn btn-xs"><a href="#">Lagos</a></span></div>
                                 <article class="card__article">
                                   <h3 class="m5-top"><a href="#">Developer Relations Ecosystem Program Manager, Sub-Saharan Africa</a></h3>
                                   <p class="m0-bttm">As a Program Manager at Google, you lead complex, multi-disciplinary projects. You plan requirements with internal customers and usher projects through the entire project lifecycle. This includes managing project schedules, identifying risks and clearly communicating goals to project stakeholders. </p>
@@ -197,7 +197,7 @@
                                     <a href="" class="like-icon"><i class="fa fa-heart-o"></i></a>
                                     <a id="share" class="share-toggle share-icon" href="#"></a>
                                 </div>
-                                <div class="card__meta"><span class="btn btn-xs category"><a href="#">Oil & Gas</a></span><span class="btn btn-xs location"><a href="#">Lagos</a></span><span class="btn btn-xs recruiter"><a href="#">Saipem</a></span></div>
+                                <div class="card__meta"><span class="btn btn-xs recruiter"><a href="#">Saipem</a></span><span class="btn btn-xs category"><a href="#">Oil & Gas</a></span><span class="btn btn-xs location"><a href="#">Lagos</a></span></div>
                                 <article class="card__article">
                                   <h3 class="m5-top"><a href="#">Contract Administrator</a></h3>
                                   <p class="m0-bttm">Verify the completeness of contract documents and distribute to project team members. 
@@ -221,12 +221,153 @@
                      </div>
                     </div>
                 </div>
+                <!-- INLINE ad-bar 3 -->
+                <div class="ad-bar3">
+                  <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=AD-BANNER-350%C3%97150&w=550&h=150">
+                </div>
+                <!-- post-card 3 -->
+                <div class="post-card">
+                    <div class="card radius shadowDepth1 row">
+                     <!-- post-card image -->
+                     <div class="col-md-4 p0 post-card-img">
+                      <div class="card__image border-tlr-radius">
+                        <!-- <img src="http://lorempixel.com/400/200/sports/" alt="image" class="border-tlr-radius"> -->
+                        <p class="recruiter-name"><i class="fa fa-building"></i> Google</p>
+                      </div>
+                     </div>
+                     <!-- post-card content -->
+                     <div class="col-md-8">
+                      <div class="card__content card__padding">
+                                <div class="card__share">
+                                    <div class="card__social">  
+                                        <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
+                                        <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
+                                        <a class="share-icon googleplus" href="#"><span class="fa fa-google-plus"></span></a>
+                                    </div>
+                                    <a href="" class="like-icon"><i class="fa fa-heart-o"></i></a>
+                                    <a id="share" class="share-toggle share-icon" href="#"></a>
+                                </div>
+                                <div class="card__meta"><span class="btn btn-xs"><a href="#">Google</a></span><span class="btn btn-xs"><a href="#">Program Management</a></span><span class="btn btn-xs"><a href="#">Lagos</a></span></div>
+                                <article class="card__article">
+                                  <h3 class="m5-top"><a href="#">Developer Relations Ecosystem Program Manager, Sub-Saharan Africa</a></h3>
+                                  <p class="m0-bttm">As a Program Manager at Google, you lead complex, multi-disciplinary projects. You plan requirements with internal customers and usher projects through the entire project lifecycle. This includes managing project schedules, identifying risks and clearly communicating goals to project stakeholders. </p>
+                                </article>
+                      </div>
+                      <div class="card__action">                        
+                        <div class="card__author pull-left">
+                          <img src="http://lorempixel.com/40/40/sports/" alt="user">
+                          <div class="card__author-content">
+                            By <a href="#">Bolaji Alade</a> | <time class="">18th March</time>
+                          </div>
+                        </div>
+                        <div class="utils pull-right">
+                            <ul class="list-inline">
+                              <li><a href="" class="btn btn-danger btn-sm">Apply</a></li>
+                              <li><a href="" class="btn btn-default btn-sm">Read more</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                     </div>
+                    </div>
+                </div>
+                <!-- pagination -->
+                <div class="text-center center-block">
+                  <ul class="pagination">
+                    <li class="disabled"><a href="#">«</a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">»</a></li>
+                  </ul>
+                </div> 
               </div>
               <!-- sidebar panels >>  subscription, ads, top posts, fb plugin-->
-              <div class="col-md-4 content-sidebar"></div>
+              <div class="col-md-4 content-sidebar">
+                <!-- subscribe panel -->
+                <div class="panel panel-default">
+                  <div class="panel-heading"><h5 class="m0">Subscribe for jobs alerts</h5></div>
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label class="control-label">Enter your email</label>
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                          <button class="btn btn-default" type="button">Email Jobs</button>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- sidebar AD-Bar1 -->
+                <div class="panel panel-default">
+                  <div class="panel-body p0">
+                    <div class="ad-bar1">
+                      <img class="img-responsive center-block" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=AD-BANNER1-250%C3%97150&w=250&h=150">
+                    </div>
+                  </div>
+                </div>
+                <!-- Top / Featured Jobs -->
+                <div class="panel panel-default">
+                  <div class="panel-heading"><h5 class="m0">Featured Jobs</h5></div>
+                  <div class="">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item p0">
+                        <!-- <img src=""> -->
+                        <p class="sb-recruiter-name"><i class="fa fa-building"></i> Google</p>
+                        <h4 class="list-group-item-heading">Developer Relations Ecosystem Program Manager, Sub-Saharan Africa</h4>
+                        <p class="post-tags"><span class="btn btn-xs">Google</span><span class="btn btn-xs">Program Management</span><span class="btn btn-xs">Lagos</span></p>
+                      </a>
+                      <a href="#" class="list-group-item p0">
+                        <!-- <img src=""> -->
+                        <p class="sb-recruiter-name"><i class="fa fa-building"></i> Saipem</p>
+                        <h4 class="list-group-item-heading">Contract Administrator</h4>
+                        <p class="post-tags"><span class="btn btn-xs">Saipem</span><span class="btn btn-xs">Oil & Gas</span><span class="btn btn-xs">Lagos</span></p>
+                      </a>
+                      <a href="#" class="list-group-item p0">
+                        <!-- <img src=""> -->
+                        <p class="sb-recruiter-name"><i class="fa fa-building"></i> Google</p>
+                        <h4 class="list-group-item-heading">Developer Relations Ecosystem Program Manager, Sub-Saharan Africa</h4>
+                        <p class="post-tags"><span class="btn btn-xs">Google</span><span class="btn btn-xs">Program Management</span><span class="btn btn-xs">Lagos</span></p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Facebook Plugin -->
+                <div class="panel panel-default facebook">
+                  <div class="panel-body">
+                    <div class="fb-plugin">
+                      <h4 class="text-center"><i class="fa fa-facebook"></i> | Facebook Plugin</h4>
+                    </div>
+                  </div>
+                </div>
+                <!-- sidebar AD-Bar2 -->
+                <div class="panel panel-default">
+                  <div class="panel-body p0">
+                    <div class="ad-bar2">
+                      <img class="img-responsive center-block" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=AD-BANNER2-250%C3%97150&w=250&h=150">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- row ends -->
+          </div> <!-- main-content ends -->
+        </div> <!-- container ends -->
+        <!-- footer -->
+        <footer>
+          <div class="footer footer2">
+            <div class="row m15-right m15-left">
+              <div class="col-md-6 col-sm-6">
+                <p class="small text-left copyright">&copy;Copyright 411Jobs, 2015.</p>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <p class="small text-right site-credit"><a href="#">CuriouzMind Tech</a></p>
+              </div>
             </div>
           </div>
-        </div>
+        </footer>
       </div>
       <!-- content ends -->
     </div>

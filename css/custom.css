@@ -7,15 +7,29 @@
 /* BODY */
  body {
  	font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
- 	padding-top: 40px;
+ 	padding-top: 60px;
+ }
+ .h2-xs {
+ 	font-size: 33px;
  }
  @media (min-width: 768px) {
   	body {
  		padding-top: 70px;
  	}
+ 	.h2-md {
+ 		font-size: 45px;
+ 	}
+}
+a:focus,
+a:hover {
+	color: #e51c23;
 }
 a:focus {
 	outline: none;
+}
+.card__share a:focus,
+.card__share a:hover {
+	text-decoration: none;
 }
 
  /* top-navigation */
@@ -39,17 +53,108 @@ a:focus {
   		text-align: center;
   		margin: auto;
   }
-  @media(max-width: 768px) {
- 
+  @media(max-width: 767px) {
+ 	.post-cards {
+ 		margin: 0 15px;
+ 	}
   }
- /* content-navigation */
 
+/* MAIN-CONTENT */
+.main-content {
+	margin-bottom: 50px;
+}
+ /* content-navigation */
+ .navbar-header form.navbar-form {
+ 	margin-left: -10px;
+ }
+ .navbar-header form input.form-control {
+ 	width: 70%;
+ }
+ .navbar-header form.navbar-form .form-group {
+ 	width: 100%;
+ }
  /*Main-content*/
  .main-content .post-cards {
  	min-height: 400px;
  }
 
  /*POST-CARDS*/
+ .ad-bar3 {
+ 	margin-top: -10px;
+ 	margin-bottom: 40px;
+ 	padding: 0 100px;
+ }
+
+
+ /* pagination */
+ .pagination > .active > a, 
+ .pagination > .active > span, 
+ .pagination > .active > a:hover, 
+ .pagination > .active > span:hover, 
+ .pagination > .active > a:focus, 
+ .pagination > .active > span:focus {
+ 	background-color: #e51c23;
+	border-color: #e51c23;
+ }
+ .pagination > li > a, 
+ .pagination > li > span {
+ 	color: #e51c23;
+ }
+ .pagination > li > a:hover, 
+ .pagination > li > span:hover, 
+ .pagination > li > a:focus, 
+ .pagination > li > span:focus {
+ 	color: #e51c23;
+ }
+
+ /* Sidebar */
+ .content-sidebar .panel .list-group a {
+ 	height: 70px;
+ 	margin: 4px 0;
+ }
+ .content-sidebar .panel .list-group a p.sb-recruiter-name {
+ 	float: left;
+	display: inline-block;
+	background-color: #DDD;
+	color: #333;
+	height: 69px;
+	width: 69px;
+	margin-right: 10px;
+	padding: 19px 10px;
+	text-align: center;
+	margin-bottom: 0px;
+	line-height: 14px;
+ }
+ .content-sidebar .panel .list-group a p.sb-recruiter-name i {
+ 	display: block;
+ }
+  .content-sidebar .panel .list-group a h4,
+  .content-sidebar .panel .list-group a p span,
+  .content-sidebar .panel .list-group a p.sb-recruiter-name {
+  	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  }
+ .content-sidebar .panel .list-group a p a.list-group-item {
+ 	display: inline-block;
+ }
+ .content-sidebar .panel .list-group a p span {
+ 	max-width: 136px;
+ }
+ @media(min-width: 768px) {
+ 	 .content-sidebar .panel .list-group a p span {
+	 	max-width: 162px;
+	 }
+ }
+ .fb-plugin h4 {
+ 	color:#fff;
+ }
+ .ad-bar1 img,
+ .ad-bar2 img {
+ 	width: 100%;
+ 	height: auto;
+ }
+
 
  /**
  * Helpers
@@ -87,6 +192,9 @@ a:focus {
 	.post-card-img {
 		height: 221px;
 		overflow: hidden;
+		 -webkit-transition: height 0.6s ease;
+		  -o-transition: height 0.6s ease;
+		  transition: height 0.6s ease;
 	}
  
 .card__image {
@@ -106,6 +214,19 @@ a:focus {
 		display: block;
 		height: 100%;
 	}
+	 @media(max-width: 767px) {
+	 	.post-card-img {
+	 		height: 50px;
+	 		 -webkit-transition: height 0.6s ease;
+			  -o-transition: height 0.6s ease;
+			  transition: height 0.6s ease;
+	 	}
+	 	.card__image p.recruiter-name {
+	 		padding: 10px;
+			font-size: 33px;
+			text-align: left;
+	 	}
+	 }
 
 .card__content {
 	position: relative;
@@ -259,6 +380,11 @@ a:focus {
 
 
  /* POST-CARDS ENDS */
+
+ /* Footer */
+ footer .footer2 p.site-credit a {
+ 	color: #666;
+ }
 
 /* general utilities*/
 .m0 {margin: 0;}
